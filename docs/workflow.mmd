@@ -1,0 +1,13 @@
+flowchart TD
+    A[Run matching_agent.py] --> B[Start filesystem_mcp_server.py over stdio]
+    B --> C[JSON-RPC initialize / capability negotiation]
+    C --> D[LangGraph: discover resources and templates]
+    D -->|resources/list and resources/templates/list| B
+    D --> E[Read job with read_file tool]
+    E -->|tools/call| B
+    E --> F[Read resumes with batch_process tool]
+    F -->|tools/call| B
+    F --> G[Rank candidates in LangGraph]
+    G --> H[Print ranked results]
+    B -. exposes .-> I[Resources: resumes://list, jobs://list, resume://, job://]
+    B -. exposes .-> J[Tools: list_files, read_file, search_files, batch_process, watch_directory]

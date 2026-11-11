@@ -1,0 +1,3 @@
+Sam Rivera — Backend Developer
+6 years of experience with Java, REST APIs, Docker, Kubernetes, and distributed systems.
+Built cloud services on AWS and PostgreSQL. Familiar with Python and batch jobs.

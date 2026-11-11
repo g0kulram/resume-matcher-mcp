@@ -1,0 +1,4 @@
+Jordan Patel — Analytics Engineer
+4 years using SQL, dbt, Python, and PostgreSQL for analytics data models.
+Created data quality monitoring, dashboards, and reporting pipelines on AWS.
+Some Apache Spark experience; collaborated with machine learning teams.

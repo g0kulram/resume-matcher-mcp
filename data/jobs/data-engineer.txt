@@ -1,0 +1,5 @@
+Data Engineer
+
+Required skills: Python, SQL, Apache Spark, ETL, AWS, data pipelines, PostgreSQL.
+Responsibilities: build reliable batch data processing systems, maintain data quality,
+and collaborate with analytics and machine learning teams.

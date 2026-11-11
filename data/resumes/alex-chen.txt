@@ -1,0 +1,4 @@
+Alex Chen — Data Engineer
+5 years of experience building Python and SQL data pipelines.
+Built ETL workflows with Apache Spark on AWS; PostgreSQL, Airflow, data quality checks.
+Designed batch processing systems and partnered with analytics teams.
